@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="27.0.6">
+  <diagram name="Страница 1" id="sJgcwjroCoOifZiKkK17">
+    <mxGraphModel dx="8488" dy="6660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-2" value="Q1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="-2997" y="-2722" width="500" height="74.4" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-3" value="Q2" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="-2478" y="-2722" width="500" height="74.4" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-4" value="Q3" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="-1968" y="-2722" width="500" height="74.4" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-5" value="Q4" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="-1458" y="-2722" width="500" height="74.4" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-6" value="BI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="-3178" y="-2632" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-7" value="Data Architects" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="-3178" y="-2512" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-8" value="DevOps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="-3178" y="-2392" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-9" value="SRE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="-3178" y="-2272" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-2979" y="-2632" width="2011" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-2979" y="-2512" width="2011" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-2979" y="-2392" width="2011" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-2979" y="-2272" width="2011" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-14" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;T1. Развертывание нового DWH параллельно с SQL Server для тестирования и перехода.&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;T2. Внедрение Kafka для обмена данными в режиме реального времени.&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;T3. Создание Raw-зоны в новом DWH для хранения необработанных данных.&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;T4. Перенос финансовых данных в отдельный домен (микросервисы на Golang + Kafka).&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;T5. Выделение медицинских данных в FHIR-совместимое хранилище.&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;T6. Создание веб-портала самообслуживания для аналитики и отчетов.&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;T7. Замена Power Builder на веб-портал с динамическими отчётами.&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;T8. Внедрение ABAC для пометки конфиденциальных полей (PII, PHI).&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;T9. Переход на потоковую обработку финансовых транзакций.&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;T10. Настройка репликации и фейловера для отказоустойчивости.&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;T11. Внедрение мониторинга компонентов (Prometheus, Grafana).&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;T12. Тестирование сценариев восстановления (Disaster Recovery).&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;T13. Создание витрин данных для всех доменов.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=light-dark(#52d84b, #1f2f1e);align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;labelBackgroundColor=#FFFFCC;labelBorderColor=default;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="-3128" y="-3290" width="840" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-15" value="Т1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=20;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-2968" y="-2382" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-16" value="Т2" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=20;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-2698" y="-2382" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-17" value="Т3" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=20;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-2382" y="-2472" width="394" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-18" value="Т4" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=20;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-1968" y="-2492" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-19" value="Т5" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=20;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-1718" y="-2492" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-20" value="Т7" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=20;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-1458" y="-2612" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-21" value="Т13" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=20;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-1208" y="-2612" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-22" value="Developers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="-3177" y="-2152" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-2979" y="-2152" width="2011" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-24" value="Т10" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=20;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-2968" y="-2322" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-25" value="Т11" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=20;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-2798" y="-2322" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-26" value="Т12" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=20;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-2630" y="-2322" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-27" value="ML-инженеры" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="-3177" y="-2032" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-2979" y="-2032" width="2011" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-29" value="Т8" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=20;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-2458" y="-2012" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-30" value="Т9" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=20;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-1958" y="-2012" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-31" value="Т6" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=20;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-2458" y="-2132" width="990" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqN4MGIdOnNMxpvWz0jJ-32" value="&lt;div&gt;&lt;h2 data-pm-slice=&quot;1 3 []&quot;&gt;Результаты:&lt;/h2&gt;&lt;ul data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;Данные из всех доменов (финансы, медицина, HR) успешно загружены в новый DWH.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Первые потоковые pipelines настроены (транзакции, логи медоборудования).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Финансы и медицина функционируют на независимых стеках.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Медданные изолированы от аналитики (соответствие HIPAA/GDPR).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Сотрудники создают отчёты без участия IT (drag-and-drop).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Время формирования сложных отчётов сокращено до секунд.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Система устойчива к сбоям, данные не теряются.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;SLA 99.9% для критически важных сервисов (финансы, EMR).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#42E8C8;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;labelBackgroundColor=#FFFFCC;labelBorderColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-2248" y="-3440" width="790" height="460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
